@@ -32,6 +32,20 @@
   -moz-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.54);
 }
+.dropDownSelect{
+  background-color: #21fd04;
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 800;
+  border: none;
+  outline: none;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  padding: 0 1rem;
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.54);
+}
 .dropDownItem {
   background-color: hsl(200, 15%, 8%);
 }

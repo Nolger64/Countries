@@ -4,7 +4,6 @@ import styleDark from "./AppDark.module.css"; //Importando el css module
 import { useMode } from "./hooks/useMode"; //Importando el hook useMode
 import Navbar from "./components/navbar/Navbar"; //Importando el componente Navbar
 import Filter from "./components/filter/Filter"; //Importando el componente Filter
-import Grid from "./components/grid/Grid";
 
 
 const App = () => {
@@ -14,7 +13,7 @@ const App = () => {
     <div className={style.container}>
       <Navbar mode={mode} setMode={setMode}/>
       <Filter mode={mode}/>
-      <Grid mode={mode}/>
+      
     </div>
   );
 };
