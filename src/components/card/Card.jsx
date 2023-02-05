@@ -2,7 +2,7 @@ import { useMode } from "../../hooks/useMode"; //Importando el hook useMode
 import styleLigth from "./CardLigth.module.css"; //Importando el css module claro
 import styleDark from "./CardDark.module.css"; //Importando el css module osbcuro
 import { useContext } from "react"; //Importando el hook useContext
-import { Context } from "../../context/context"; //Importando el contexto
+import { Context } from "../../context/Context"; //Importando el contexto
 
 
 const Card = (props) => {

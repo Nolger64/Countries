@@ -4,7 +4,7 @@ import styleLigth from "./GridLigth.module.css"; //Importando el css module
 import styleDark from "./GridDark.module.css"; //Importando el css module
 import { useMode } from "../../hooks/useMode"; //Importando el hook useMode
 import { useContext } from "react"; //Importando el hook useContext
-import { Context } from "../../context/context"; //Importando el contexto
+import { Context } from "../../context/Context"; //Importando el contexto
 
 export const GridFilterByCont = (props) => {
   const { open } = useContext(Context); //Usando el hook useContext
