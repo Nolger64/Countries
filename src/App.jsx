@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"; //Importando el hook useState
 import { useMode } from "./hooks/useMode"; //Importando el hook useMode
-import { Context } from "./context/context"; //Importando el contexto
+import { Context } from "./context/Context"; //Importando el contexto
 import styleLigth from "./AppLigth.module.css"; //Importando el css module
 import styleDark from "./AppDark.module.css"; //Importando el css module
 import Navbar from "./components/navbar/Navbar"; //Importando el componente Navbar
