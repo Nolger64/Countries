@@ -1,4 +1,4 @@
-import { Context } from "../../context/context"; //Importando el contexto
+import { Context } from "../../context/Context"; //Importando el contexto
 import { useContext } from "react"; //Importando el hook useContext
 import { useMode } from "../../hooks/useMode"; //Importando el hook useMode
 import styleLigth from "./InfoLigth.module.css"; //Importando el css
