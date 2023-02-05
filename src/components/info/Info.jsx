@@ -5,9 +5,9 @@ import styleLigth from "./InfoLigth.module.css"; //Importando el css
 import styleDark from "./InfoDark.module.css"; //Importando el css
 import backSVG from "../../assets/arrow-back-outline.svg"; //Importando el svg
 
-const Info = () => {
+const Info = (props) => {
   //Usando el hook useMode para obtener el modo actual
-  const style = useMode(styleDark, styleLigth);
+  const style = useMode( props.mode, styleDark, styleLigth);
   //Usando el hook useContext para obtener el estado select
   const { open } = useContext(Context);
   //Usando el hook useContext para obtener el pais seleccionado
@@ -27,7 +27,7 @@ const Info = () => {
           <img src={countri.flag} alt="Flag" className={style.imgFlag}/>
         </div>
         <div className={style.containerRigth}>
-          <h1 className={style.title}>{countri.name}</h1>
+          <h1 className={style.tittle}>{countri.name}</h1>
           <h3 className={style.infoText}>Capital: <p className={style.infoSubText}>{countri.capital}</p></h3>
           <h3 className={style.infoText}>Native Name: <p className={style.infoSubText}>{countri.nativeName}</p></h3>
           <h3 className={style.infoText}>Region: <p className={style.infoSubText}>{countri.region}</p></h3>

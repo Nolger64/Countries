@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    min-height: 90vh;
+    height: auto;
+  } /* Contenedor principal */
+  .containerBack {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  } /* Contenedor del boton de regreso */
+  .btnBack {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0.4rem 0.7rem;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.75);
+  } /* Boton de regreso */
+  .backSVG {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5rem;
+    filter: invert();
+  } /* SVG del boton de regreso */
+  .containerInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } /* Contenedor de la informacion */
+  .containerLeft {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } /* Contenedor izquierdo del lado de la imagen*/
+  .imgFlag {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0.8rem;
+  } /* Imagen de la bandera */
+  .containerRigth {
+    width: 50%;
+    height: auto;
+  } /* Contenedor derecho del lado de la informacion */
+  .tittle {
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 2em;
+    font-weight: 800;
+  } /* Contenedor de la informacion */
+  .infoText {
+    color: #fff;
+    display: flex;
+    margin: 0.2rem 0;
+    font-size: 1.1em;
+    font-weight: 600;
+  } /* Contenedor de la informacion */
+  .infoSubText {
+    color: #fff;
+    margin: 0rem 0.5rem;
+    font-weight: 400;
+  } /* Contenedor de la informacion */
+  @media (max-width: 1000px) {
+    .containerBack {
+      height: 10vh;
+    } /* Contenedor del boton de regreso */
+    .containerInfo {
+      flex-direction: column;
+    } /* Contenedor de la informacion */
+    .containerLeft {
+      width: 85%;
+    } /* Contenedor izquierdo del lado de la imagen*/
+    .containerRigth {
+      margin: 1.5rem 0;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    } /* Contenedor derecho del lado de la informacion */
+  }
+  @media (max-width: 680px) {
+    .containerBack {
+      height: 8vh;
+    } /* Contenedor del boton de regreso */
+    .btnBack {
+      padding: 0.2rem 0.5rem;
+      font-size: 1.1em;
+      margin: 0 1rem;
+      border-radius: 0.3rem;
+    } /* Boton de regreso */
+    .backSVG {
+      width: 0.8em;
+      height: 0.8em;
+      margin-right: 0.3rem;
+    } /* SVG del boton de regreso */
+    .containerLeft {
+      width: 95%;
+    } /* Contenedor izquierdo del lado de la imagen*/
+    .imgFlag {
+      margin: 2rem 0 1rem 0;
+      max-width: 90%;
+      height: auto;
+      width: 30rem;
+    } /* Imagen de la bandera */
+    .containerRigth {
+      width: 100%;
+    } /* Contenedor derecho del lado de la informacion */
+  }
